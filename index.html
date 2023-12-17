@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>坐不住 健康管理工具</title>
+    <!--虽然不知道为什么但是如果名字是index.css不起作用，改成indexx.css就起作用了-->
+    <!-- <link rel="stylesheet" href="css/index.css"> -->
+    <link rel="stylesheet" href="css/indexx.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/star_canvas.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+    <!-- <script src="js/nav.js"></script> -->
+    <script src="js/footer.js"></script>
+    <script src="js/star_canvas.js"></script>
+</head>
+
+
+
+<body>
+    
+    <iframe src="nav.html" frameborder="0" width="100%" height="48px" id="ifr"></iframe>
+    <div id="mains">
+        <!-- &nbsp; -->
+        <div class="title0">“坐不住” 健康管理工具</div>
+        <div class="banner" id="banner">
+            <img src="images/img1.png" alt="bannner1" class="slide" id="b_img1">
+            <img src="images/img2.png" alt="bannner2" class="slide" id="b_img2">
+            <img src="images/img3.png" alt="bannner3" class="slide" id="b_img3">
+        </div>
+        <div class="slide_button_normal slide_button_now" id="b_but1" onclick="to_banner(1)"></div>
+        <div class="slide_button_normal" id="b_but2" onclick="to_banner(2)"></div>
+        <div class="slide_button_normal" id="b_but3" onclick="to_banner(3)"></div>
+        <div class="title1 allow_select" id="what_is_it">这是一个什么网站/软件？</div>
+        <div class="content1 allow_select" id="what_is_it_qa1">“坐不住”可以帮助使用者保持健康的坐姿和运动习惯，并定时提醒使用者休息一下，提供图文并茂的健康坐姿和运动指南，提醒用户调整姿势或做简单的运动，同时“坐不住”还具有软件使用时间统计、健康社区、喝水提醒、日历、运动计划安排、坐姿识别与矫正等功能模块。</div>
+        <div class="index_left">
+            <div class="title2">功能介绍：</div>
+            <ul class="index_list">
+                <li><a href="fun0.html">久坐提醒</a></li>
+                <li><a href="fun1.html">健康社区</a></li>
+                <li><a href="fun2.html">软件使用时间统计</a></li>
+            </ul>
+        </div>
+        <div class="index_right">
+            <div class="title2">软件下载/访问：</div>
+            <ul class="index_list">
+                <li><a href="http://47.120.12.92:81/坐不住主程序安装程序.zip">“坐不住”主程序</a></li>
+                <li><a href="http://47.120.12.92:81/" target="_blank">“坐不住”健康社区 </a></li>
+                <li><a href="http://47.120.12.92:81/坐不住软件时间统计.zip">“坐不住”软件使用时间统计(Preview)</a></li>
+            </ul>
+        </div>
+        <div id="star" class="fix1"></div>
+    </div>
+    <iframe src="footer.html" frameborder="0" width="100%" height="48px" scrolling="no" id="footer_frame" class="footer_frame"></iframe>
+</body>
+
+</html>

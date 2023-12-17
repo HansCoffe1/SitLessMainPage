@@ -1,0 +1,144 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    /*因为写错成bottom:0导致过一些bugs……*/
+}
+
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+img {
+    -webkit-user-drag: none;
+    /*firefox无效*/
+}
+
+.allow_select {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+#mains,
+.mains {
+    height: 920px;
+    background-color: rgb(247, 240, 228);
+    padding-left: 6%;
+    padding-right: 4%;
+    padding-top: 8px;
+    /* margin-bottom: 48px; */
+    /* color: red; */
+}
+
+.title1 {
+    font-size: 28px;
+    font-weight: 700;
+    /* text-indent: 2em; */
+    display: none;
+    margin-bottom: 8px;
+    color: rgb(0, 0, 71);
+}
+
+.content1 {
+    display: none;
+    text-indent: 2em;
+    font-size: 18px;
+    color: rgb(14, 44, 100);
+    /* margin-top: 6px; */
+}
+
+.title0 {
+    width: 90%;
+    text-align: center;
+    font-size: 38px;
+    color: rgb(4, 4, 107);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    display: none;
+}
+
+.title2 {
+    font-size: 24px;
+    font-weight: 700;
+    display: none;
+    margin-top: 28px;
+    margin-bottom: 8px;
+    color: navy;
+}
+
+.index_left {
+    float: left;
+    width: 40%;
+}
+
+.index_right {
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+}
+
+.index_list li {
+    padding-top: 8px;
+}
+
+.index_list a {
+    text-decoration: none;
+    color: rgb(14, 44, 100);
+    transition: all 0.3s;
+    /* margin-top: 10px; */
+}
+
+.index_list a:hover {
+    color: goldenrod;
+    transition: all 0.3s;
+}
+
+.index_list {
+    /* position: relative; */
+    /* left: 15%; */
+    text-indent: 0;
+    font-size: 18px;
+    color: rgb(14, 44, 100);
+    word-spacing: 1em;
+}
+
+.banner {
+    /* background-color: wheat; */
+    height: 410px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.slide {
+    display: none;
+    height: 410px;
+    width: 100%;
+    /* cursor: pointer; */
+    /*暂未打算图片跳转*/
+}
+
+.slide_button_normal {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(4, 46, 80);
+    background-color: rgb(77, 164, 235);
+    top: 520px;
+    z-index: 100;
+    cursor: pointer;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+.slide_button_normal:hover,
+.slide_button_now {
+    transition: background-color 0.3s, border 0.3s;
+    background-color: rgb(240, 198, 61);
+    border: 2px solid rgb(105, 82, 7)
+}
