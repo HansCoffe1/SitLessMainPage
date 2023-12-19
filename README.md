@@ -7,7 +7,6 @@
 │  ├─ about.css
 │  ├─ footer.css
 │  ├─ funs.css
-│  ├─ fun_common.css
 │  ├─ general.css
 │  ├─ indexx.css
 │  ├─ nav.css

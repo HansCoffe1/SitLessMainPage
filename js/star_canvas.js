@@ -1,13 +1,13 @@
 "use strict";
-//模仿画布做星星动效
+//模仿画布   星星动效
 $(() => {
-    init_star();
+    init_star();  // 初始化星星动效
 });
 
 function init_star() {
-    let obj = $('#star');
-    // console.log(obj);
+    let obj = $('#star');  // 获取id为star的元素
 
+    // 创建星星元素，添加类名，并添加到#star元素中
     let star1 = $('<img src="images/star.png"></img>');
     star1.addClass('stars');
     star1.addClass('ss1');
@@ -38,6 +38,7 @@ function init_star() {
     star6.addClass('ss6');
     obj.append(star6);
 
+    // 创建月亮元素，添加类名，并添加到#star元素中
     let moon = $('<img src=images/moon.png></img>');
     moon.addClass('moon');
     obj.append(moon);
