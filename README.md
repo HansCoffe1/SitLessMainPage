@@ -10,8 +10,6 @@
 │  ├─ general.css
 │  ├─ indexx.css
 │  ├─ nav.css
-│  ├─ post.css
-│  ├─ post_common.css
 │  └─ star_canvas.css
 ├─ footer.html
 ├─ fun0.html

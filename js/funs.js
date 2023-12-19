@@ -15,8 +15,6 @@ $(() => {
     $(window).scroll(funpage_height).resize(funpage_height);
     // 初始化页面高度
     funpage_height();
-    // set_footer_position();
-    // set_footer_position();
 });
 // 根据 tid 跳转到对应的页面
 function goto_fun(tid) {
